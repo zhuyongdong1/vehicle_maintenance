@@ -98,15 +98,15 @@
       <h3>使用提示</h3>
       <div class="tips-list">
         <div class="tip-item">
-          <el-icon color="#007AFF"><Aim /></el-icon>
+          <el-icon color="var(--apple-blue)"><Aim /></el-icon>
           <span>确保车牌清晰可见，光线充足</span>
         </div>
         <div class="tip-item">
-          <el-icon color="#007AFF"><Picture /></el-icon>
+          <el-icon color="var(--apple-blue)"><Picture /></el-icon>
           <span>尽量从正面角度拍摄</span>
         </div>
         <div class="tip-item">
-          <el-icon color="#007AFF"><Lightning /></el-icon>
+          <el-icon color="var(--apple-blue)"><Lightning /></el-icon>
           <span>AI智能识别，快速准确</span>
         </div>
       </div>
@@ -461,7 +461,7 @@ const viewVehicleRecords = async () => {
 }
 
 .scan-header {
-  background: linear-gradient(135deg, #007AFF, #0056CC);
+  background: linear-gradient(135deg, var(--apple-blue), #0056CC);
   color: white;
   padding: 24px 20px;
   text-align: center;
@@ -505,7 +505,7 @@ const viewVehicleRecords = async () => {
 .camera-button:active,
 .gallery-button:active {
   transform: scale(0.98);
-  border-color: #007AFF;
+  border-color: var(--apple-blue);
 }
 
 .camera-icon,
@@ -513,7 +513,7 @@ const viewVehicleRecords = async () => {
   width: 80px;
   height: 80px;
   border-radius: 20px;
-  background: linear-gradient(135deg, #007AFF, #0056CC);
+  background: linear-gradient(135deg, var(--apple-blue), #0056CC);
   color: white;
   display: flex;
   align-items: center;
@@ -561,11 +561,11 @@ const viewVehicleRecords = async () => {
 }
 
 .upload-content:hover {
-  border-color: #007AFF;
+  border-color: var(--apple-blue);
 }
 
 .upload-content .el-icon {
-  color: #007AFF;
+  color: var(--apple-blue);
   margin-bottom: 16px;
 }
 

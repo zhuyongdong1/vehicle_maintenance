@@ -1,5 +1,8 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --apple-blue: #007AFF;
+  --el-color-primary: var(--apple-blue);
+  --apple-font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--apple-font-family);
   line-height: 1.5;
   font-weight: 400;
 
@@ -156,7 +159,7 @@ button:focus-visible {
 }
 
 .el-button--primary {
-  background: linear-gradient(135deg, #007AFF, #0056CC);
+  background: linear-gradient(135deg, var(--apple-blue), #0056CC);
   border: none;
 }
 
@@ -172,16 +175,16 @@ button:focus-visible {
 }
 
 .el-input__wrapper:hover {
-  border-color: #007AFF;
+  border-color: var(--apple-blue);
 }
 
 .el-input__wrapper.is-focus {
-  border-color: #007AFF;
+  border-color: var(--apple-blue);
   box-shadow: 0 0 0 2px rgba(0, 122, 255, 0.1);
 }
 
 .el-select .el-input.is-focus .el-input__wrapper {
-  border-color: #007AFF;
+  border-color: var(--apple-blue);
   box-shadow: 0 0 0 2px rgba(0, 122, 255, 0.1);
 }
 
@@ -233,7 +236,7 @@ button:focus-visible {
 
 .el-dropdown-menu__item:hover {
   background: #f5f5f5;
-  color: #007AFF;
+  color: var(--apple-blue);
 }
 
 .el-loading-mask {
@@ -351,7 +354,7 @@ button:focus-visible {
 }
 
 .nav-item.active .nav-icon {
-  color: #007AFF;
+  color: var(--apple-blue);
 }
 
 .nav-label {
@@ -362,7 +365,7 @@ button:focus-visible {
 }
 
 .nav-item.active .nav-label {
-  color: #007AFF;
+  color: var(--apple-blue);
 }
 
 /* 工具类 */

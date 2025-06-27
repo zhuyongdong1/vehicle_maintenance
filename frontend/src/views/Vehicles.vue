@@ -424,7 +424,7 @@ onMounted(() => {
 }
 
 .page-header {
-  background: linear-gradient(135deg, #007AFF, #0056CC);
+  background: linear-gradient(135deg, var(--apple-blue), #0056CC);
   color: white;
   padding: 20px 16px;
   display: flex;
@@ -515,7 +515,7 @@ onMounted(() => {
 .plate-number {
   font-size: 20px;
   font-weight: 700;
-  color: #007AFF;
+  color: var(--apple-blue);
 }
 
 .actions {

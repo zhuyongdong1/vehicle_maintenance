@@ -429,7 +429,7 @@ onMounted(() => {
 }
 
 .page-header {
-  background: linear-gradient(135deg, #007AFF, #0056CC);
+  background: linear-gradient(135deg, var(--apple-blue), #0056CC);
   color: white;
   padding: 20px 16px;
 }
@@ -479,7 +479,7 @@ onMounted(() => {
 .vehicle-plate {
   font-size: 24px;
   font-weight: 700;
-  color: #007AFF;
+  color: var(--apple-blue);
   margin-bottom: 16px;
   text-align: center;
 }
@@ -529,7 +529,7 @@ onMounted(() => {
   display: block;
   font-size: 20px;
   font-weight: 700;
-  color: #007AFF;
+  color: var(--apple-blue);
   margin-bottom: 4px;
 }
 
