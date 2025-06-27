@@ -89,7 +89,7 @@ export const vehicleService = {
 export const maintenanceService = {
   getMaintenanceRecords: async (vehicleId) => {
     try {
-      const response = await api.get(`/maintenance/vehicle/${vehicleId}`);
+      const response = await api.get(`/maintenance/${vehicleId}`);
       return response.data;
     } catch (error) {
       console.error(`获取车辆 ${vehicleId} 的维护记录失败:`, error);
