@@ -220,7 +220,7 @@ onMounted(() => {
 }
 
 .page-header {
-  background: linear-gradient(135deg, #007AFF, #0056CC);
+  background: linear-gradient(135deg, var(--apple-blue), #0056CC);
   color: white;
   padding: 24px 20px;
   text-align: center;
@@ -261,7 +261,7 @@ onMounted(() => {
 }
 
 .action-card.primary {
-  background: linear-gradient(135deg, #007AFF, #0056CC);
+  background: linear-gradient(135deg, var(--apple-blue), #0056CC);
   color: white;
   border: none;
 }
@@ -283,7 +283,7 @@ onMounted(() => {
 }
 
 .action-card:not(.primary) .action-icon {
-  background: #007AFF;
+  background: var(--apple-blue);
   color: white;
 }
 
@@ -339,7 +339,7 @@ onMounted(() => {
 .stat-number {
   font-size: 24px;
   font-weight: 700;
-  color: #007AFF;
+  color: var(--apple-blue);
   margin-bottom: 4px;
 }
 
@@ -372,7 +372,7 @@ onMounted(() => {
 }
 
 .quick-item .el-icon {
-  color: #007AFF;
+  color: var(--apple-blue);
   margin-bottom: 8px;
 }
 
@@ -408,7 +408,7 @@ onMounted(() => {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background: #007AFF;
+  background: var(--apple-blue);
   color: white;
   display: flex;
   align-items: center;

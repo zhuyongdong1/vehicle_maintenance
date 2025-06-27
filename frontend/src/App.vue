@@ -76,7 +76,7 @@ const handleMenuClick = (item) => {
 html, body {
   height: 100%;
   overflow-x: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--apple-font-family);
   background: #f5f5f5;
 }
 
@@ -159,12 +159,12 @@ html, body {
 }
 
 .nav-item.active .nav-icon {
-  color: #007AFF;
+  color: var(--apple-blue);
   transform: scale(1.1);
 }
 
 .nav-item.active .nav-label {
-  color: #007AFF;
+  color: var(--apple-blue);
   font-weight: 600;
 }
 
@@ -190,7 +190,7 @@ html, body {
 }
 
 .el-button--primary {
-  background: #007AFF;
+  background: var(--apple-blue);
   color: #ffffff;
 }
 
